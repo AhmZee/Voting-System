@@ -19,7 +19,7 @@ const LoginUser = () => {
       </div>
       <div className=' flex flex-row gap-3 items-center mt-4'>
         <input type="checkbox" className=' w-[20px] h-[20px] focus-within:outline-none ' />
-        <h3 className="">Remember Password <span className=' ml-1'>Forgot Password?</span></h3>
+        <h3 className=" text-sm " >Remember Password <span className=' ml-1'>Forgot Password?</span></h3>
       </div>
       <button className='font-normal w-[100%] h-[65px] text-secondary bg-primary rounded-[0.625rem] border-[1px] mt-20 border-primary z-10 '>
         Log In

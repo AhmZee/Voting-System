@@ -16,7 +16,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 function App() {
   return (
     <Router>
-      <div className=' m-auto w-[375px]'>
+      <div className=' m-auto w-[375px] font-Inter'>
         <Switch>
           <Route exact path="/">
             <Welcome />
