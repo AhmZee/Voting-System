@@ -10,13 +10,15 @@ import CreateUser from './createAcc&Login/CreateUser';
 import CreateAdmin from './createAcc&Login/CreateAdmin';
 import PhoneVerification from './createAcc&Login/PhoneVerification';
 import VerificationSuccess from './createAcc&Login/VerificationSuccess';
+import Home from './HomeScreen/Home';
+import CreatePoll1 from './HomeScreen/CreatePoll1';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
     <Router>
-      <div className=' m-auto w-[375px] font-Inter'>
+      <div className=' m-auto w-[375px] font-Inter h-[100vh]'>
         <Switch>
           <Route exact path="/">
             <Welcome />
@@ -47,6 +49,12 @@ function App() {
           </Route>
           <Route path="/VerificationSuccess">
             <VerificationSuccess />
+          </Route>
+          <Route path="/Home">
+            <Home />
+          </Route>
+          <Route path="/CreatePoll1">
+            <CreatePoll1 />
           </Route>
         </Switch>
       </div>

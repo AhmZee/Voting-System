@@ -15,20 +15,20 @@ const CreateAdmin = () => {
         </Link>
       </div>
       <h3 className=" font-Inter font-semibold">Create Account</h3>
-      <div className=" flex items-center p-[10px] border-[1px] border-primary w-[100%] h-[65px] rounded-[10px] mt-3 ">
+      <div className=" flex items-center bg-secondary p-[10px] border-[1px] border-primary w-[100%] h-[65px] rounded-[10px] mt-3 ">
         <input type="text" placeholder="Full Name" className=" focus-within:outline-none " />
       </div>
-      <div className=" flex items-center p-[10px] border-[1px] border-primary w-[100%] h-[65px] rounded-[10px] mt-3 ">
+      <div className=" flex items-center bg-secondary p-[10px] border-[1px] border-primary w-[100%] h-[65px] rounded-[10px] mt-3 ">
         <input type="text" placeholder="Phone Number" className=" focus-within:outline-none " />
       </div>
-      <div className=" flex items-center p-[10px] border-[1px] border-primary w-[100%] h-[65px] rounded-[10px] mt-3 ">
+      <div className=" flex items-center bg-secondary p-[10px] border-[1px] border-primary w-[100%] h-[65px] rounded-[10px] mt-3 ">
         <input type="text" placeholder="Admin ID No" className=" w-[100%] focus-within:outline-none " />
       </div>
-      <div className=" flex items-center justify-between p-[10px] border-[1px] border-primary w-[100%] h-[65px] rounded-[10px] mt-3 ">
+      <div className=" flex items-center bg-secondary justify-between p-[10px] border-[1px] border-primary w-[100%] h-[65px] rounded-[10px] mt-3 ">
         <input type="text" placeholder="Password" className=" focus-within:outline-none " />
         <img src={eyeFlash} alt="" className=' pr-5' />
       </div>
-      <div className=" flex items-center justify-between p-[10px] border-[1px] border-primary w-[100%] h-[65px] rounded-[10px] mt-3 ">
+      <div className=" flex items-center bg-secondary justify-between p-[10px] border-[1px] border-primary w-[100%] h-[65px] rounded-[10px] mt-3 ">
         <input type="text" placeholder="Re-enter Password" className=" focus-within:outline-none " />
         <img src={eyeFlash} alt="" className=' pr-5' />
       </div>

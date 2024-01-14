@@ -10,10 +10,10 @@ const LoginUser = () => {
       <p className=' font-normal text-sm  mt-2 opacity-[60%]'>
         Welcome to <span className=' text-primary'>Elect.NG</span> online voting platform, please login to vote for your preferred candidate.
       </p>
-      <div className=" flex items-center p-[10px] border-[1px] border-primary w-[100%] h-[65px] rounded-[10px] mt-4 ">
+      <div className=" flex items-center bg-secondary p-[10px] border-[1px] border-primary w-[100%] h-[65px] rounded-[10px] mt-4 ">
         <input type="text" placeholder="Phone Number" className=" focus-within:outline-none " />
       </div>
-      <div className=" flex items-center justify-between p-[10px] border-[1px] border-primary w-[100%] h-[65px] rounded-[10px] mt-4 ">
+      <div className=" flex items-center bg-secondary justify-between p-[10px] border-[1px] border-primary w-[100%] h-[65px] rounded-[10px] mt-4 ">
         <input type="text" placeholder="Password" className=" focus-within:outline-none " />
         <img src={eyeFlash} alt="" className=' pr-5' />
       </div>

@@ -12,7 +12,7 @@ const VerificationSuccess = () => {
       <p className=' text-sm text-center mt-5'>
         Welcome to Elect.NG
       </p>
-      <Link to="/">
+      <Link to="/Home">
         <button className='font-normal w-[100%] h-[65px] text-secondary bg-primary rounded-[0.625rem] border-[1px] mt-24 border-primary z-10 '>
           Go To Home
         </button>
