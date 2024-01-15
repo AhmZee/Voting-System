@@ -53,11 +53,11 @@ const CreatePoll1 = () => {
       </div>
 
       <h3 className=" font-semibold ">Voting Restrictions</h3>
-      <select name="" id="" className='w-[100%] h-[49px] rounded-[10px]  bg-secondary mb-2 pl-2'>
+      <select name="" id="" className='w-[100%] h-[49px] rounded-[10px]  bg-secondary mb-2 pl-2 focus-within:outline-none'>
         <option value="">One Vote per IP address</option>
         <option value="">Two Votes per IP address</option>
       </select>
-      <Link to="/CreatePoll1">
+      <Link to="/CreatePoll2">
         <button className=' w-[100%] h-[65px] text-secondary bg-primary rounded-[10px] mt-2'>
           Create Poll
         </button>

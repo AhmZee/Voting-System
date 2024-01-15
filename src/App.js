@@ -12,6 +12,9 @@ import PhoneVerification from './createAcc&Login/PhoneVerification';
 import VerificationSuccess from './createAcc&Login/VerificationSuccess';
 import Home from './HomeScreen/Home';
 import CreatePoll1 from './HomeScreen/CreatePoll1';
+import CreatePoll2 from './HomeScreen/CreatePoll2';
+
+import PollCreateSuccess from './HomeScreen/PollCreateSuccess';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -55,6 +58,12 @@ function App() {
           </Route>
           <Route path="/CreatePoll1">
             <CreatePoll1 />
+          </Route>
+          <Route path="/CreatePoll2">
+            <CreatePoll2 />
+          </Route>
+          <Route path="/PollCreateSuccess">
+            <PollCreateSuccess />
           </Route>
         </Switch>
       </div>
