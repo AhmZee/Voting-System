@@ -7,7 +7,7 @@ const CreatePoll2
     return (
       <div className=" p-6 " >
         <h3 className=" font-semibold">Create A Poll</h3>
-        <h3 className=" text-sm mt-2 mb-4">Fill in the fields below to create a poll</h3>
+        <h3 className=" text-sm mt-2 mb-4 ">Fill in the fields below to create a poll</h3>
         <h3 className=" font-semibold">Poll Title</h3>
         <div className=' flex items-center w-[100%] h-[49px] bg-secondary  rounded-[10px] mb-2 '>
           <input type="text" placeholder="Type your poll title" className=' pl-3 text-sm focus-within:outline-none' />
@@ -44,7 +44,7 @@ const CreatePoll2
             <h3 className=' text-center m-auto w-[123px] text-secondary  bg-primary p-1 mt-3 '>Browse files</h3>
           </div>
         </div>
-        <Link to="/PollCreateSuccess">
+        <Link to="/Upload">
           <button className=' w-[100%] h-[65px] text-secondary bg-primary rounded-[10px] mt-2'>
             Add A File
           </button>

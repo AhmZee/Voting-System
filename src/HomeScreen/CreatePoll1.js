@@ -6,7 +6,7 @@ const CreatePoll1 = () => {
   return (
     <div className=" p-6 " >
       <h3 className=" font-semibold">Create A Poll</h3>
-      <h3 className=" text-sm mt-2 mb-4">Fill in the fields below to create a poll</h3>
+      <h3 className=" text-sm mt-2 mb-4 opacity-[60%]">Fill in the fields below to create a poll</h3>
       <h3 className=" font-semibold">Poll Title</h3>
       <div className=' flex items-center w-[100%] h-[49px] bg-secondary  rounded-[10px] mb-2 '>
         <input type="text" placeholder="Type your poll title" className=' pl-3 text-sm focus-within:outline-none' />
