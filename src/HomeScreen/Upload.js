@@ -11,8 +11,8 @@ const Upload = () => {
     <div className=" p-6 " >
       <h3 className=" font-semibold ">Upload Files</h3>
       <h3 className=" text-sm mt-2 mb-4">UPLOADING</h3>
-      <div className=' flex gap-3 items-start w-[100%] '>
-        <div className=' flex items-center w-[258px] h-[80px] border-b-[1px] bg-[rgba(11,234,113,0.16)] border-[rgba(0,0,0,0.20)] gap-3 mb-4 '>
+      <div className=' flex gap-3 items-start w-[100%] border-b-[1px] border-[rgba(0,0,0,0.20)]  mb-4'>
+        <div className=' flex items-center w-[258px] h-[80px] bg-[rgba(11,234,113,0.16)]  gap-3 '>
           <img src={obiImage} alt="" className=' w-[65px] h-[57.676px] rounded-[10px] ml-4 ' />
           <div className=' flex flex-col justify-center'>
             <h3 className=" font-semibold ">Photo 1.jpg</h3>

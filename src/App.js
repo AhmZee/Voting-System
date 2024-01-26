@@ -11,10 +11,16 @@ import CreateAdmin from './createAcc&Login/CreateAdmin';
 import PhoneVerification from './createAcc&Login/PhoneVerification';
 import VerificationSuccess from './createAcc&Login/VerificationSuccess';
 import Home from './HomeScreen/Home';
+import Home2 from './HomeScreen/Home2';
 import CreatePoll1 from './HomeScreen/CreatePoll1';
 import CreatePoll2 from './HomeScreen/CreatePoll2';
 import Upload from './HomeScreen/Upload';
 import PollCreateSuccess from './HomeScreen/PollCreateSuccess';
+import JoinVote from './HomeScreen/JoinVote';
+import SelectedPoll from './HomeScreen/SelectedPoll';
+import VoteCandidate from './votingScreen/VoteCandidate';
+import CandidateInfo from './votingScreen/CandidateInfo';
+import VoteSuccessful from './votingScreen/VoteSuccessful';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -56,6 +62,9 @@ function App() {
           <Route path="/Home">
             <Home />
           </Route>
+          <Route path="/Home2">
+            <Home2 />
+          </Route>
           <Route path="/CreatePoll1">
             <CreatePoll1 />
           </Route>
@@ -68,6 +77,21 @@ function App() {
           <Route path="/PollCreateSuccess">
             <PollCreateSuccess />
           </Route>
+          <Route path="/JoinVote">
+            <JoinVote />
+          </Route>
+          <Route path="/SelectedPoll">
+            <SelectedPoll />
+          </Route>
+          <Route path="/VoteCandidate">
+            <VoteCandidate />
+          </Route>
+          <Route path="/CandidateInfo">
+            <CandidateInfo />
+          </Route>
+          <Route path="/VoteSuccessful">
+            <VoteSuccessful />
+          </Route>
         </Switch>
       </div>
     </Router>
@@ -76,4 +100,9 @@ function App() {
 }
 
 export default App;
+
+
+
+
+// https://www.figma.com/file/SFCZEL7VApFAH7GpyoS9t8/High-Fidelity-Design-(Voting-System)?type=design&node-id=282%3A209&mode=design&t=uaeeuwvjaSqM1uD2-1
 

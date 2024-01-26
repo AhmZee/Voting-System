@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-const Home = () => {
+const Home2 = () => {
   return (
     <div className=' p-6 font-bold font-Inter text-center '>
       <h1 className=' pt-24 font-Lexend text-4xl text-primary '>
@@ -11,18 +11,18 @@ const Home = () => {
         Your account has been created successfully
         Let’s Get Started
       </p>
-      <Link to="/CreatePoll1">
-        <button className='font-normal w-[95%] h-[65px] text-secondary bg-primary rounded-[0.625rem]'>
-          Create A Poll
+      <Link to="/JoinVote">
+        <button className='font-normal w-[95%] h-[65px] text-secondary bg-primary rounded-[0.625rem]' >
+          Join A Vote
         </button>
       </Link>
-      <Link to="/JoinVote">
-        <button className='font-normal w-[95%] h-[65px] text-primary bg-secondary rounded-[0.625rem] border-[1px] mt-5 border-primary'>
-          Join A Vote
+      <Link to="/CreatePoll1">
+        <button className='font-normal w-[95%] h-[65px] text-primary bg-secondary rounded-[0.625rem] border-[1px] mt-5 border-primary' >
+          Create A Poll
         </button>
       </Link>
     </div>
   );
 }
 
-export default Home;
+export default Home2;
