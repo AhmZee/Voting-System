@@ -31,7 +31,7 @@ const Home2 = () => {
             </button>
           </Link>
           <Link to="/home/join-vote">
-            <button className='font-normal w-[95%] h-[65px] text-primary bg-secondary rounded-[0.625rem] border-[1px] mt-5 border-primary' >
+            <button className=' font-normal w-[95%] h-[65px] text-primary bg-secondary rounded-[0.625rem] border-[1px] mt-5 border-primary' >
               Join A Vote
             </button>
           </Link>

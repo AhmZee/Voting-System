@@ -7,22 +7,20 @@ import SideBar from '../../components/sidebar';
 
 const CustomDialog = ({ isOpen, candidateName, onConfirm, onCancel }) => {
   return (
-    <div className=' relative '>
-      <div className={`fixed w-[284px] inset-0 z-10 ${isOpen ? 'flex' : 'hidden'} items-center justify-center m-auto`}>
-        <div className='bg-white p-4 rounded border shadow-lg'>
-          <h3 className=' text-right ' onClick={onCancel}>x</h3>
-          <h3 className=' text-center text-red-500 text-sm mb-4'>Warning!</h3>
-          <p className=' text-xs text-center'>Are you sure you want to vote for this candidates? Once confirmed this action cannot be reversed.....</p>
-          <div className=' flex flex-grow justify-center gap-5 mt-5'>
-            <Link to="/voting/vote-successful">
-              <button className=' text-xs text-secondary bg-primary p-[8px] rounded-[3px]' >
-                Confirm
-              </button>
-            </Link>
-            <button className=' text-xs text-primary bg-secondary border-[1px] border-primary p-[7px] rounded-[3px] ' onClick={onCancel}>
-              Cancel
+    <div className={`absolute w-[284px] inset-0 z-10 ${isOpen ? 'flex' : 'hidden'} items-center justify-center m-auto myLS:w-[400px]`}>
+      <div className='bg-white p-4 rounded border shadow-lg'>
+        <h3 className=' text-right ' onClick={onCancel}>x</h3>
+        <h3 className=' text-center text-red-500 text-sm mb-4'>Warning!</h3>
+        <p className=' text-xs text-center'>Are you sure you want to vote for this candidates? Once confirmed this action cannot be reversed.....</p>
+        <div className=' flex flex-grow justify-center gap-5 mt-5 myLS:mb-5'>
+          <Link to="/voting/vote-successful">
+            <button className=' text-xs text-secondary bg-primary p-[8px] rounded-[3px]' >
+              Confirm
             </button>
-          </div>
+          </Link>
+          <button className=' text-xs text-primary bg-secondary border-[1px] border-primary p-[7px] rounded-[3px] ' onClick={onCancel}>
+            Cancel
+          </button>
         </div>
       </div>
     </div>
@@ -64,7 +62,7 @@ const VoteCandidate = () => {
         <div className=' hidden myLS:block '>
           <SideBar />
         </div>
-        <div className='p-6 m-auto w-[375px] font-Inter h-[100vh] font-medium myLS:m-0 myLS:w-[700px] '>
+        <div className=' relative p-6 m-auto w-[375px] font-Inter h-[100vh] font-medium myLS:m-0 myLS:w-[700px] '>
           <div className=' flex justify-center mb-3'>
             <img src={obiImage} alt="" />
           </div>
