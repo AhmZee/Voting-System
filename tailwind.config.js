@@ -17,7 +17,10 @@ export const theme = {
     colors: {
       primary: '#0CBB5C',
       secondary: '#ffffff'
-  }
+    },
+    screens: {
+      'myLS': '850px',
+    }
   },
   // Include default configuration
   ...defaultTheme,
